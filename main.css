@@ -1,7 +1,53 @@
+* {
+    background-color: #E8AFC0;
+    font-family: 'Roboto', sans-serif;
+}
 .page{ 
-    background-color: aqua;
+    background-color: #FDF5E6;
+    box-sizing: border-box;
+    border-radius: 25px;
+    padding-bottom: 10px;
 }
 
 .logo {
-    background-color: blueviolet;
+    background-color: #FDF5E6;
+/* fix width to change with screen */
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#navbar {
+    background-color: #333;
+    display: grid;
+    min-height: 50px;
+}
+  #links {
+    background-color: #AFE8D7;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    grid-auto-flow: column;
+}
+  
+  a {
+    background-color: #AFE8D7;
+    text-decoration: none;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 15px;
+    margin-left: 5px;
+    color: #333;
+}
+  
+  a:hover {
+    background-color: #E8AFC0;
+    color: #FDF5E6;
+}
+
+.name {
+    text-align: center;
+    background-color: #AFE8D7;
+    padding: 15px;
+    font-size: 18px;
 }
